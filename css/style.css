@@ -21,14 +21,15 @@ header{
 ul li {
   display: inline-block;
   background-color: white;
-  width: 20px;
-  height: 20px;
-  padding: 20px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   position: relative;
   box-shadow: 2px 2px 2px lightgrey;
 }
 ul li a{
+  display: inline-block;
+  padding: 10px;
   text-decoration: none;
   color: black;
   position: absolute;
