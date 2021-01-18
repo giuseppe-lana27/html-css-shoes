@@ -15,11 +15,9 @@ header{
   right: 10px;
   z-index: 10;
 }
-
 .nav-bar ul li{
   list-style: none;
 }
-
 ul li {
   display: inline-block;
   background-color: white;
@@ -28,8 +26,8 @@ ul li {
   padding: 20px;
   border-radius: 50%;
   position: relative;
+  box-shadow: 2px 2px 2px lightgrey;
 }
-
 ul li a{
   text-decoration: none;
   color: black;
@@ -39,12 +37,10 @@ ul li a{
   transform: translate(-50%, -50%);
 }
 /* /header */
-
 /* main */
 section{
   height: 100vh;
 }
-
 #first-section{
   background-color: red;
   position: relative;
@@ -57,14 +53,12 @@ section{
   background-color: yellow;
   position: relative;
 }
-
 .item{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .item h1{
   text-align: center;
   text-transform: uppercase;
